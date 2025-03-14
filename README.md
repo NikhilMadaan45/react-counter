@@ -1,13 +1,23 @@
-# React + Vite
+# React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple counter application built with React. The counter starts at 10 and allows users to increment or decrement its value within the range of 0 to 20.
 
-Currently, two official plugins are available:
+## Features
+* Counter with a range from 0 to 20
+* Initial value set to 10
+* Simple and interactive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Getting Started
+Follow these steps to set up and run the project locally:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# react-counter
+### 1.Clone the repository
+```  git clone https://github.com/NikhilMadaan45/react-counter ```
+### 2.Navigate to the project directory
+``` cd react-counter ```
+### 3. Install dependencies
+``` npm install ```
+### 4. Start the development server
+``` npm run dev ```
+
+Now, open your browser and visit http://localhost:5173/ (or the provided URL) to use the counter app.
